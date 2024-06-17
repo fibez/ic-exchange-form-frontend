@@ -1,0 +1,24 @@
+.nav-bar-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar-link:hover {
+    cursor: pointer;
+    background-color: rgba(112, 174, 224, 0.723);
+}
+
+.nav-bar-link__icon {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-bar-link__text {
+    text-transform: lowercase;
+    font-size: 18px;
+}
