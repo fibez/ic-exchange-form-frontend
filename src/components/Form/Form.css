@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.form__select-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__select-label {
+    color: white;
+}

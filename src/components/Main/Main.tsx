@@ -1,15 +1,16 @@
-import React from 'react';
-import './Main.css';
-import MainContainer from '../MainContainer/MainContainer';
+import React from "react";
+import "./Main.css";
+import FormContainer from "../FormContainer/FormContainer";
+import FormNavigation from "../FormNavigation/FormNavigation";
+import Form from "../Form/Form";
 
 const Main: React.FC = () => {
     return (
         <main className="main">
-            <MainContainer>
-                <div>Child Component 1</div>
-                <div>Child Component 2</div>
-                {/* Можно добавлять другие компоненты */}
-            </MainContainer>
+            <FormContainer>
+                <FormNavigation></FormNavigation>
+                <Form></Form>
+            </FormContainer>
         </main>
     );
 };
